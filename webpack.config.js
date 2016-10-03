@@ -11,10 +11,10 @@ module.exports = {
     devtool:'inline-source-map',
     entry: {
             'application': './src/index.js',
-            // 'vendors': [
-            //     'jquery',
-            //     'moment'
-            // ]
+            'vendors': [
+                'jquery',
+                'moment'
+            ]
         },
     output: {
         path: path.join(__dirname, './dist'),
