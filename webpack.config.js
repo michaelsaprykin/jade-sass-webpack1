@@ -12,8 +12,7 @@ module.exports = {
     entry: {
             'application': './src/index.js',
             'vendors': [
-                'jquery',
-                'moment'
+                'jquery'
             ]
         },
     output: {
