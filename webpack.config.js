@@ -56,6 +56,10 @@ module.exports = {
                 loader: ExtractTextPlugin.extract('style', 'css!postcss!sass!')
             },
             {
+              test: /\.styl$/,
+              loader: ExtractTextPlugin.extract('style', 'css!postcss!stylus!')
+            },
+            {
                 test: /\.(ttf|eot|woff|woff2|png|ico|jpg|jpeg|gif|svg)$/i,
                 loader: ['file?name=[path][name].[ext]']
         }
