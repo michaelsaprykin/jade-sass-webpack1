@@ -1,0 +1,35 @@
+jade-sccs@1.0.0 /Users/CoolUser/projects/jade-sccs
+├── UNMET PEER DEPENDENCY babel-core@^6.0.0
+├── UNMET PEER DEPENDENCY node-sass@^3.4.2
+└─┬ pug@2.0.0-beta6 
+  ├─┬ pug-code-gen@1.1.0 
+  │ ├─┬ constantinople@3.1.0 
+  │ │ └── is-expression@2.1.0 
+  │ ├── doctypes@1.1.0 
+  │ ├── js-stringify@1.0.2 
+  │ ├── pug-attrs@2.0.1 
+  │ ├── pug-error@1.3.1 
+  │ ├── void-elements@2.0.1 
+  │ └─┬ with@5.1.1 
+  │   └── acorn-globals@3.0.0 
+  ├─┬ pug-filters@1.2.4 
+  │ ├─┬ clean-css@3.4.20 
+  │ │ ├─┬ commander@2.8.1 
+  │ │ │ └── graceful-readlink@1.0.1 
+  │ │ └── source-map@0.4.4 
+  │ └─┬ jstransformer@1.0.0 
+  │   ├── is-promise@2.1.0 
+  │   └─┬ promise@7.1.1 
+  │     └── asap@2.0.5 
+  ├─┬ pug-lexer@2.3.0 
+  │ ├─┬ character-parser@2.2.0 
+  │ │ └── is-regex@1.0.3 
+  │ └─┬ is-expression@3.0.0 
+  │   └── acorn@4.0.3 
+  ├── pug-linker@1.0.1 
+  ├── pug-load@2.0.3 
+  ├─┬ pug-parser@2.0.1 
+  │ └── token-stream@0.0.1 
+  ├── pug-runtime@2.0.2 
+  └── pug-strip-comments@1.0.1 
+
